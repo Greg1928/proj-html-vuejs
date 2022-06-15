@@ -1,12 +1,15 @@
 <template>
     <main>
-        
+        <SectionHero/>
     </main>
 </template>
 
 <script>
+import SectionHero from '../sections/SectionHero.vue';
+
 export default {
-    name: 'BaseMain'
+    name: "BaseMain",
+    components: { SectionHero }
 }
 </script>
 
