@@ -64,9 +64,6 @@ section{
         h1{
             padding: 30px 30px 15px 30px;
         }
-        span{
-            margin-bottom: 30px;
-        }
 
         .pick-small{
             width: 8%;
