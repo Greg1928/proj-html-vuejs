@@ -39,6 +39,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                 </div>
+                <div class="col-12">
+                    <a href="#">Load more post</a>
+                </div>
             </div>
             <div class="col-4">
                 <input type="text" placeholder="search">
@@ -162,6 +165,18 @@ section{
         height: 60px;
         margin-bottom: 30px;
     }
+    .col-12{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: lightgray;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
     .container{
         .row{
             .col-8{
@@ -177,6 +192,7 @@ section{
                         img{
                             width: 100%;
                         }
+                    }
                     }
                 }
             }
@@ -235,7 +251,7 @@ section{
                 }
             }
         }
-    }
+    
 
 
 </style>
