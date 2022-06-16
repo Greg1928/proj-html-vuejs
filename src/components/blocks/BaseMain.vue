@@ -6,6 +6,7 @@
         <SectionFarm/>
         <SectionPost/>
         <SectionEbook/>
+        <SectionPhotos/>
     </main>
 </template>
 
@@ -16,10 +17,11 @@ import SectionCollection from '../sections/SectionCollection.vue';
 import SectionFarm from '../sections/SectionFarm.vue'
 import SectionPost from '../sections/SectionPost.vue'
 import SectionEbook from '@/components/sections/SectionEbook.vue'
+import SectionPhotos from '../sections/SectionPhotos.vue'
 
 export default {
     name: "BaseMain",
-    components: { SectionHero, SectionPopular, SectionCollection, SectionFarm, SectionPost, SectionEbook }
+    components: { SectionHero, SectionPopular, SectionCollection, SectionFarm, SectionPost, SectionEbook, SectionPhotos }
 }
 </script>
 
