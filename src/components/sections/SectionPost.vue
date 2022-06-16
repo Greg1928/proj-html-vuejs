@@ -1,0 +1,241 @@
+<template>
+  <section>
+     <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <input type="text" placeholder="search">
+                <p style="color:var(--primary-color)">Follow Us</p>
+                <div class="icons">
+                    <div class="padd"><i class="fa-brands fa-facebook-f"></i></div>
+                    <div class="padd"> <i class="fa-brands fa-instagram"></i></div>
+                    <div class="padd"><i class="fa-brands fa-twitter"></i></div>
+                    <div class="padd"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 popular white">
+                        <span class="lineH">popular</span>
+                    </div>
+                    <div class="col-6 popular">
+                        <span class="lineH">Recent</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="@/assets/img/single-post-img3-66x66.jpg" alt="">
+                    </div>
+                    <div class="col-10">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <span>march 25th, 2019</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="@/assets/img/singapore-featured-image-66x66.jpg" alt="">
+                    </div>
+                    <div class="col-10">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <span>march 25th, 2019</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="@/assets/img/slide1-bg-66x66.jpg" alt="">
+                    </div>
+                    <div class="col-10">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                        <span>march 25th, 2019</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-10">
+                                <h5>Tweets <small> by </small></h5>
+                                <a href="#"> @Theme_Fusion</a>
+                            </div>
+                            <div class="col-2 align-self-end">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="@/assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
+                            </div>
+                            <div class="col-10">
+                                <h6>ThemeFusion</h6>
+                                <p>@Theme_Fusion</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum saepe quos veritatis quaerat hic dignissimos id quam recusandae vero, deserunt labore sapiente eius molestias nulla in? Dicta quas facilis quia.</p>
+                                <img src="@/assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    </div>
+                                    <div class="col-6 right">
+                                        <span>21h</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+  </section>
+</template>
+
+<script>
+export default {
+    name: 'SectionPost'
+}
+</script>
+
+<style lang="scss" scoped>
+section{
+    .popular{
+        text-align: center;
+        border: 1px solid gray;
+        height: 50px;
+        margin-top: 40px;
+    }
+    .lineH{
+        line-height: 50px;
+    }
+    .white{
+        background-color: white;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .padd{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background-color: lightgrey;
+        border-radius: 5px;
+    }
+    input{
+        border-radius: 5px;
+        width: 100%;
+        border-color: lightgray;
+        height: 60px;
+        margin-bottom: 30px;
+    }
+    .container{
+        .row{
+            .col-8{
+                width: calc(66% - 30px);
+                .row{
+                    column-gap: 40px;
+                    .col-6{
+                        background-color: white;
+                        margin-bottom: 30px;
+                        width: calc(50% - 20px);
+                        padding: 0;
+                        text-align: center;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .col-4{
+                flex-direction: column;
+                margin-left: 38px;
+
+                .row{
+                    margin-bottom: 20px;
+                     
+                    .col-2{
+                        align-self: center;
+                    img{
+                        border-radius: 100%;
+                    }
+                }
+                .col-10{
+                    p{
+                        margin: 0;
+                        line-height: 1.5;
+                    }
+                }
+                .content{
+                    background-color: white;
+                    border-radius: 7px;
+                    .row{
+                        .col-2{
+                            align-self: flex-start;
+                        }
+                        svg{
+                            padding-right: 30px;
+                        }
+                        .right{
+                                text-align: right;
+                            }
+                    }
+                    }
+                    h5{
+                        display: inline-block;
+                    }
+                    h6{
+                       margin: 0; 
+                    }
+                    img{
+                        width: 100%;
+                        margin-top: 30px;
+                        border-radius: 5px;
+                    }
+                    .col-10{
+                        margin-top: 20px;
+                    }
+                    .col-2{
+                        text-align: right;
+                    }
+                }
+                }
+            }
+        }
+    }
+
+
+</style>

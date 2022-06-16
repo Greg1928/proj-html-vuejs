@@ -52,6 +52,7 @@ export default {
 <style lang="scss" scoped>
 section{
     margin-top: 150px;
+    height: 1150px;
     .container{
         .row{
             .col-6{
@@ -75,11 +76,13 @@ section{
         }
         .row{
             margin-top: 70px;
+
             .col-8{
                 background-color: white;
                 padding: 0;
                 width: calc(66% - 30px);
                 margin-right: 38px;
+                height: 900px;
 
                 h4, span, p, a{
                     margin-left: 20px;
@@ -109,7 +112,7 @@ section{
                     .row{
                         margin: 0;
                         .col-12{
-                            height: 500px;
+                            
                             overflow: hidden;
                             margin-bottom: 50px;
                             position: relative;
