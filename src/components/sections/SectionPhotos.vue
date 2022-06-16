@@ -31,5 +31,10 @@ section{
     .col-3{
         padding: 0;
     }
+    .row{
+        width: 100%;
+        margin: 0;
+    }
+
 }
 </style>
