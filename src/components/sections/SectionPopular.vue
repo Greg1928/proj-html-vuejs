@@ -122,10 +122,13 @@ section{
         transition: opacity 0.3s;
         display: flex;
         flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
         align-items: center;
         justify-content: center;
 
     }
+    
     .box:hover .img::after{
         opacity: 1;
     }

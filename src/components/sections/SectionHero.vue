@@ -59,7 +59,7 @@ section{
         position: relative;
     }
     .img::after{
-        content: "\f0c1" "Lorem ipsum dolor sit amet consectetur";
+        content: "\f0c1" "Lorem ipsum dolor sit amet consecteturi psum dolor sit amet consectetur";
         font-family: "Playfair Display", serif;
         position: absolute;
         top: 0;
@@ -74,6 +74,8 @@ section{
         transition: opacity 0.3s;
         display: flex;
         flex-direction: column;
+        padding: 0 40px;
+        text-align: center;
         align-items: center;
         justify-content: center;
 
