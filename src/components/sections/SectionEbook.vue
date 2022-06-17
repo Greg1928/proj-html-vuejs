@@ -1,6 +1,6 @@
 <template>
   <section>
-        <h2>Subscribe & Receive A Free eBook</h2>
+        <h2>Subscribe <span style="color:var(--primary-color)">&</span> Receive A Free eBook</h2>
         <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eius beatae nam incidunt sint</span>
         <div class="content">
             <input type="text" placeholder="  insert your email ...*">

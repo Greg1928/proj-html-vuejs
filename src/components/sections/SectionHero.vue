@@ -11,23 +11,29 @@
             <div class="journal-foodie">
                 <h3>foodie journal</h3>
                 <div class="row">
-                    <div class="col-4 box">
-                        <div class="img">
+                    <div class="col-4">
+                        <div class="box">
+                            <div class="img">
                             <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
                         </div>
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
-                        <span>Lorem ipsum dolor sit amet consectetur</span>
-                    </div>
-                    <div class="col-4 box">
-                        <div class="img">
-                            <img src="../../assets/img/fi-roundup-400x263.jpg" alt="">
                         </div>
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
-                    <div class="col-4 box">
-                        <div class="img">
+                    <div class="col-4">
+                        <div class="box">
+                            <div class="img">
+                            <img src="../../assets/img/fi-roundup-400x263.jpg" alt="">
+                        </div>
+                        </div>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
+                        <span>Lorem ipsum dolor sit amet consectetur</span>
+                    </div>
+                    <div class="col-4">
+                        <div class="box">
+                            <div class="img">
                             <img src="../../assets/img/fi-toasts-400x263.jpg" alt="">
+                        </div>
                         </div>
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
