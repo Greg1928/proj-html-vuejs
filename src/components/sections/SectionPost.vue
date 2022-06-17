@@ -175,6 +175,12 @@ section{
         text-align: center;
         background-color: #edede7;
         border-radius: 5px;
+        display: flex;
+            justify-content: center;
+
+        svg{
+            align-self: center;
+        }
     }
     input{
         border-radius: 5px;
