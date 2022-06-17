@@ -180,6 +180,7 @@ section{
 
         svg{
             align-self: center;
+            color: var(--secondary-color);
         }
     }
     input{
