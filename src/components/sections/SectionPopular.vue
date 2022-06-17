@@ -4,8 +4,10 @@
         <h3>Popular Receipes</h3>
         <p class="spec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quidem? Ut esse quo sapienteLorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorem</p>
         <div class="row">
-            <div class="col-6 white">
-                <img src="../../assets/img/Yogurt-Nan-800x527.jpg" alt="">
+            <div class="col-6 white box">
+                <div class="img">
+                    <img src="../../assets/img/Yogurt-Nan-800x527.jpg" alt="">
+                </div>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing</h4>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing</span>
                 <hr>
@@ -14,35 +16,51 @@
             </div>
             <div class="col-6">
                 <div class="row">
-                    <div class="col-6">
-                        <img src="../../assets/img/Mixed-fruits-400x263.jpg" alt="">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/Mixed-fruits-400x263.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <img src="../../assets/img/r-rachel-park-366508-unsplash-min-400x263.jpg" alt="">
-                    </div>
-                </div>
-                                <div class="row">
-                    <div class="col-6">
-                        <img src="../../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg" alt="">
-                    </div>
-                    <div class="col-6">
-                        <img src="../../assets/img/quick-summer-drink-460x295.jpg" alt="">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/r-rachel-park-366508-unsplash-min-400x263.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-                                <div class="row">
-                    <div class="col-6">
-                        <img src="../../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="">
+                <div class="row">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/r-michelle-tsang-500721-unsplash-min-400x263.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <img src="../../assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/quick-summer-drink-460x295.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-                                <div class="row">
-                    <div class="col-6">
-                        <img src="../../assets/img/fi2x-6-460x295.jpg" alt="">
+                <div class="row">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/r-maarten-van-den-heuvel-400626-unsplash-min-460x295.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="col-6">
-                        <img src="../../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/fi2x-6-460x295.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6 box">
+                        <div class="img">
+                            <img src="../../assets/img/r-brooke-lark-96398-unsplash-min-460x295.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,6 +100,32 @@ section{
     }
     img{
         width: 100%;
+    }
+    .img{
+        position: relative;
+    }
+    .img::after{
+        content: "\f0c1" "Lorem ipsum dolor sit amet consectetur";
+        font-family: "Playfair Display", serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-image: linear-gradient(rgba($color: #BE4834, $alpha: 0.8), rgba($color: #F56F23, $alpha: 1));
+        opacity: 0;
+        color: white;
+        font-weight: bold;
+        transition: opacity 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .box:hover .img::after{
+        opacity: 1;
     }
     .container{
         .white{

@@ -2,41 +2,41 @@
   <section>
     <div class="container">
         <h3>culinary collection</h3>
-        <p class="spec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui aut dolor erroripsum dolor sit amet, consectetur adipisicing elit. Qui aut dolor error</p>
+        <p id="spec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui aut dolor erroripsum dolor sit amet, consectetur adipisicing elit. Qui aut dolor error</p>
         <div class="row">
             <div class="col-3">
                 <img src="../../assets/img/drinks-recipes.png" alt="">
-                <p>Drinks</p>
+                <p class="over">Drinks</p>
             </div>
             <div class="col-3">
                 <img src="../../assets/img/soups-recipes.png" alt="">
-                <p>soups</p>
+                <p class="over">soups</p>
             </div>
             <div class="col-3">
                 <img src="../../assets/img/baking-recipes.png" alt="">
-                <p>bakery</p>
+                <p class="over">bakery</p>
             </div>
             <div class="col-3">
                 <img src="../../assets/img/dinner-recipes.png" alt="">
-                <p>dinner</p>
+                <p class="over">dinner</p>
             </div>
         </div>
         <div class="row">
             <div class="col-3">
                 <img src="../../assets/img/healthy-recipes.png" alt="">
-                <p>healthy</p>
+                <p class="over">healthy</p>
             </div>
             <div class="col-3">
                 <img src="../../assets/img/staff-picks.png" alt="">
-                <p>staff picks</p>
+                <p class="over">staff picks</p>
             </div>
             <div class="col-3">
                 <img src="../../assets/img/premium-recipes.png" alt="">
-                <p>appetisers</p>
+                <p class="over">appetisers</p>
             </div>
             <div class="col-3">
                 <img src="../../assets/img/quick-easy-recipes.png" alt="">
-                <p>quick & easy</p>
+                <p class="over">quick & easy</p>
             </div>
         </div>
     </div>
@@ -53,9 +53,15 @@ export default {
 section{
     margin-top: 150px;
 
-    .spec{
+    #spec{
         max-width: 100%;
         padding: 0 300px;
+        color: var(--secondary-color);
+    }
+    .over:hover{
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: bold;
     }
     .container{
         h3{
@@ -68,8 +74,8 @@ section{
         } 
         p{
             text-align: center;
-            margin: 20px 0;
-            color: var(--secondary-color);
+            padding: 20px 0;
+            color: var(--tertiary-color);
 
         }
         .row{
@@ -81,7 +87,6 @@ section{
                 width: calc(100% / 4 - 40px);
 
                 p{
-                    color: var(--tertiary-color);
                     text-transform: uppercase;
                 }
 

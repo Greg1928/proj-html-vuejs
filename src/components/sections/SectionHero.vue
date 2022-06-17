@@ -11,18 +11,24 @@
             <div class="journal-foodie">
                 <h3>foodie journal</h3>
                 <div class="row">
-                    <div class="col-4">
-                        <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
+                    <div class="col-4 box">
+                        <div class="img">
+                            <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
+                        </div>
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
-                    <div class="col-4">
-                        <img src="../../assets/img/fi-roundup-400x263.jpg" alt="">
+                    <div class="col-4 box">
+                        <div class="img">
+                            <img src="../../assets/img/fi-roundup-400x263.jpg" alt="">
+                        </div>
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
-                    <div class="col-4">
-                        <img src="../../assets/img/fi-toasts-400x263.jpg" alt="">
+                    <div class="col-4 box">
+                        <div class="img">
+                            <img src="../../assets/img/fi-toasts-400x263.jpg" alt="">
+                        </div>
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
@@ -48,6 +54,33 @@ section{
     flex-direction: column;
     position: relative;
     row-gap: 13.9rem;
+
+    .img{
+        position: relative;
+    }
+    .img::after{
+        content: "\f0c1" "Lorem ipsum dolor sit amet consectetur";
+        font-family: "Playfair Display", serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-image: linear-gradient(rgba($color: #BE4834, $alpha: 0.8), rgba($color: #F56F23, $alpha: 1));
+        opacity: 0;
+        color: white;
+        font-weight: bold;
+        transition: opacity 0.3s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .box:hover .img::after{
+        opacity: 1;
+    }
 
     
     .hero-pick{
@@ -97,6 +130,10 @@ section{
                 text-align: center;
                 padding: 0 40px;
                 height: 500px;
+
+                img{
+                    width: 100%;
+                }
 
                 h4{
                     color: var(--tertiary-color);
