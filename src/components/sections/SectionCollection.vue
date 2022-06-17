@@ -56,6 +56,7 @@ section{
     #spec{
         max-width: 100%;
         padding: 0 300px;
+        margin-bottom: 40px;
         color: var(--secondary-color);
     }
     .over:hover{
@@ -71,6 +72,7 @@ section{
             font-family: 'Roboto', sans-serif;
             font-size: 20px;
             letter-spacing: 2.5px;
+            margin-bottom: 30px;
         } 
         p{
             text-align: center;

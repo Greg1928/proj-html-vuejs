@@ -104,8 +104,11 @@
                                 <img src="@/assets/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="">
                             </div>
                             <div class="col-10">
-                                <h6>ThemeFusion</h6>
-                                <span>@Theme_Fusion</span>
+                                <div class="div d-flex justify-content-between">
+                                    <h6>ThemeFusion</h6>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="div"><span>@Theme_Fusion</span></div>
                                 <p id="margin-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum saepe quos veritatis quaerat hic dignissimos id quam recusandae vero, deserunt labore sapiente eius molestias nulla in? Dicta quas facilis quia.</p>
                                 <img src="@/assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
                                 <div class="row">
@@ -152,6 +155,7 @@ section{
     }
     .lineH{
         line-height: 50px;
+        color: var(--tertiary-color);
     }
     #margin-p{
         margin-bottom: 40px;
@@ -226,6 +230,8 @@ section{
                         align-self: center;
                     img{
                         border-radius: 100%;
+                        margin-top: 10px;
+                        margin-left: 15px;
                     }
                 }
                 .col-10{
@@ -247,7 +253,7 @@ section{
                         }
                         svg{
                             padding-right: 30px;
-                            color: var(--secondary-color);
+                            color: var(--quaternary-color);
                         }
                         .right{
                                 text-align: right;

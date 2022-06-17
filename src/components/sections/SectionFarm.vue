@@ -7,7 +7,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe doloribus, dolorum natus,.</p>
             </div>
             <div class="col-6">
-                <a href="#">read our blog</a>
+                <a href="#">read our blog <i class="fa-solid fa-book-open-reader"></i></a>
             </div>
         </div>
         <div class="row">
@@ -32,9 +32,14 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <img src="@/assets/img/singapore-featured-image-400x263.jpg" alt="">
-                        <!-- <span>city guide: singapore</span>
-                        <a href="#">view all city guides</a> -->
+                        <div class="image">
+                            <img src="@/assets/img/singapore-featured-image-400x263.jpg" alt="">
+                        </div>
+                        <div class="txt"><small>City Guide: Singapore</small></div>
+                        <div class="btn">
+                            <i class="fa-solid fa-earth-europe"></i>
+                            <a href="#">view all city guides</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,6 +148,40 @@ section{
                                 transform: translate(-50%, -50%);
                                 font-size: 30px;
                                 text-transform: uppercase;
+                            }
+
+                            .btn{
+                                width: 100%;
+                                background-color: var(--primary-color);
+                            }
+
+                            a{
+                                text-decoration: none;
+                                color: white;
+                                font-weight: bold;
+                            }
+                            svg{
+                                color: white;
+                                padding-right: 10px;
+                            }
+                        }
+                        .image{
+                            position: relative;
+                        }
+
+                        .txt{
+                            position: absolute;
+                            bottom: 80px;
+                            background-color: rgba($color: #000000, $alpha: 0.7);
+                            color: white;
+                            height: 40px;
+
+                            small{
+                                padding: 0 40px;
+                                font-weight: bold;
+                                line-height: 40px;
+                                font-size: 18px;
+                                letter-spacing: 2px;
                             }
                         }
                     }

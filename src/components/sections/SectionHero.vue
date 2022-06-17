@@ -121,6 +121,7 @@ section{
                margin: 7px 0;
                color: white;
                text-transform: uppercase;
+               font-weight: bold;
             }
         }
     }

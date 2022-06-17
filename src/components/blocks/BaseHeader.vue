@@ -119,6 +119,9 @@ header{
                         text-decoration: none;
                         color: var(--tertiary-color);
                     }
+                    a:hover{
+                        color: var(--primary-color);
+                    }
                 }
             }
         }

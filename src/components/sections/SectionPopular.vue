@@ -4,9 +4,11 @@
         <h3>Popular Receipes</h3>
         <p class="spec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quidem? Ut esse quo sapienteLorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorem</p>
         <div class="row">
-            <div class="col-6 white box">
-                <div class="img">
+            <div class="col-6 white">
+                <div class="box">
+                    <div class="img">
                     <img src="../../assets/img/Yogurt-Nan-800x527.jpg" alt="">
+                </div>
                 </div>
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing</h4>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing</span>
