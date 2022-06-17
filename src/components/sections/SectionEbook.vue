@@ -30,17 +30,28 @@ section{
     background-size: cover;
     height: 700px;
 
+    h2{
+        color: var(--tertiary-color);
+        font-family: 'Playfair Display', serif;
+    }
+
     input{
         width: 20%;
         height: 40px;
         border-radius: 3px;
         margin-right: 30px;
+        border-color: #edede7;
     }
     a{
         text-decoration: none;
+        text-transform: uppercase;
         padding: 12px 40px;
         background-color: var(--primary-color);
         color: white;
+        font-weight: bold;
+    }
+    small,span{
+        color: var(--secondary-color);
     }
 }
 </style>

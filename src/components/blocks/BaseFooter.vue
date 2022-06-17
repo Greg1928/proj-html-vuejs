@@ -4,10 +4,12 @@
             <div class="row">
                 <div class="col-3">
                     <img src="@/assets/img/avada-food-logo-mob-2x.png" alt="">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
                 </div>
                 <div class="col-3">
                     <ul>
@@ -17,9 +19,9 @@
                 <div class="col-3">
                     <h4>Contact</h4>
                     <ul>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
-                        <li>83485287</li>
-                        <li>@dhjioqdhi</li>
+                        <li><i id="spec-margin" class="fa-solid fa-location-dot"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit</li>
+                        <li><i id="spec-margin" class="fa-solid fa-phone-flip"></i>83485287</li>
+                        <li><i id="spec-margin" class="fa-solid fa-envelope"></i>@dhjioqdhi</li>
                     </ul>
                 </div>
                 <div class="col-3">
@@ -80,26 +82,35 @@ export default {
 <style lang="scss" scoped>
 footer{
     margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+
+    #spec-margin{
+        margin: 0 20px 0 0;
+    }
 
     img{
-        width: 100%;
+        width: 60%;
     }
 
     svg{
         margin: 40px 20px 0 0;
+        color: var(--secondary-color);
     }
 
     h4{
         color: var(--primary-color);
+        margin-bottom: 30px;
     }
     ul{
         list-style: none;
+        padding: 0; 
 
         li{
             margin-bottom: 20px;
+            color: var(--secondary-color);
 
             a{
-                color: black;
+                color: var(--tertiary-color);
                 text-decoration: none;
             }
         }
@@ -107,6 +118,7 @@ footer{
     .footer-bottom{
         position: relative;
         text-align: center;
+        margin: 60px 0 30px 0;
     }
     .left{
         position: absolute;
@@ -117,6 +129,9 @@ footer{
         color: white;
         background-color: gray;
         margin: 0;
+    }
+    small{
+        color: var(--secondary-color);
     }
 }
 </style>

@@ -27,6 +27,7 @@ export default {
 
 <style lang="scss" scoped>
 main{
-    background-color: #f5f5f1;
+    background-color: #f6f7f1;
+    font-family: 'Roboto', sans-serif;
 }
 </style>

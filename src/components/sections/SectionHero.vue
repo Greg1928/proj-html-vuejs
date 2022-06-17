@@ -13,17 +13,17 @@
                 <div class="row">
                     <div class="col-4">
                         <img src="../../assets/img/single-post-img3-400x263.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
                     <div class="col-4">
                         <img src="../../assets/img/fi-roundup-400x263.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
                     <div class="col-4">
                         <img src="../../assets/img/fi-toasts-400x263.jpg" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit</h4>
                         <span>Lorem ipsum dolor sit amet consectetur</span>
                     </div>
                 </div>
@@ -63,16 +63,22 @@ section{
 
         h1{
             padding: 30px 30px 15px 30px;
+            color: var(--tertiary-color);
+            font-family: 'Playfair Display', serif;
+        }
+        span{
+            color: var(--secondary-color);
+            margin-bottom: 30px;
         }
 
         .pick-small{
-            width: 8%;
+            width: 9%;
             position: absolute;
             top: 28%;
             left: 50%;
             right: 50%;
             transform: translate(-50%, -50%);
-            background-color: #fc7726;
+            background-color: var(--primary-color);
             border-radius: 5px;
             display: flex;
             justify-content: center;
@@ -80,6 +86,8 @@ section{
             p{
                align-self: center;
                margin: 7px 0;
+               color: white;
+               text-transform: uppercase;
             }
         }
     }
@@ -88,12 +96,25 @@ section{
                 background-color: white;
                 text-align: center;
                 padding: 0 40px;
+                height: 500px;
+
+                h4{
+                    color: var(--tertiary-color);
+                    padding: 20px 30px 0 30px;
+                    font-family: 'Playfair Display', serif;
+                }
 
                 h3{
                     padding: 20px 0;
+                    text-transform: uppercase;
+                    color: var(--tertiary-color);
+                    font-size: 20px;
+                    letter-spacing: 2.5px;
                 }
 
                 span{
+                    padding-bottom: 40px;
+                    color: var(--secondary-color);
                     padding-bottom: 40px;
                 }
             }

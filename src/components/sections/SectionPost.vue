@@ -5,36 +5,36 @@
             <div class="col-8">
                 <div class="row">
                     <div class="col-6">
-                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <img src="@/assets/img/fi-roundup-600x395.jpg" alt="">
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                     <div class="col-6">
-                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
-                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                    <div class="col-6">
-                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <img src="@/assets/img/fi-korean-food-600x395.jpg" alt="">
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <img src="@/assets/img/fi-toasts-600x395.jpg" alt="">
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                     <div class="col-6">
-                        <img src="@/assets/img/perfect-cosmopolitan-460x295.jpg" alt="">
+                        <img src="@/assets/img//fi-street-food-600x395.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="@/assets/img/fi-organic-breakfast-600x395.jpg" alt="">
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="@/assets/img/fi-water-side-rest-600x395.jpg" alt="">
                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis</h4>
                         <p>Lorem ipsum dolor sit amet consectetur</p>
                     </div>
@@ -44,17 +44,18 @@
                 </div>
             </div>
             <div class="col-4">
-                <input type="text" placeholder="search">
+                <input type="text" placeholder="search...">
                 <p style="color:var(--primary-color)">Follow Us</p>
                 <div class="icons">
                     <div class="padd"><i class="fa-brands fa-facebook-f"></i></div>
                     <div class="padd"> <i class="fa-brands fa-instagram"></i></div>
                     <div class="padd"><i class="fa-brands fa-twitter"></i></div>
                     <div class="padd"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="padd"><i class="fa-brands fa-pinterest-p"></i></div>
                 </div>
                 <div class="row">
                     <div class="col-6 popular white">
-                        <span class="lineH">popular</span>
+                        <span class="lineH">Popular</span>
                     </div>
                     <div class="col-6 popular">
                         <span class="lineH">Recent</span>
@@ -104,8 +105,8 @@
                             </div>
                             <div class="col-10">
                                 <h6>ThemeFusion</h6>
-                                <p>@Theme_Fusion</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum saepe quos veritatis quaerat hic dignissimos id quam recusandae vero, deserunt labore sapiente eius molestias nulla in? Dicta quas facilis quia.</p>
+                                <span>@Theme_Fusion</span>
+                                <p id="margin-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum saepe quos veritatis quaerat hic dignissimos id quam recusandae vero, deserunt labore sapiente eius molestias nulla in? Dicta quas facilis quia.</p>
                                 <img src="@/assets/img/En2TRxLW4AEiWUN.jpeg" alt="">
                                 <div class="row">
                                     <div class="col-6">
@@ -134,14 +135,26 @@ export default {
 
 <style lang="scss" scoped>
 section{
+
+    h4{
+        color: var(--tertiary-color);
+        margin-top: 14px;
+        padding: 0 30px;
+        font-family: 'Playfair Display', serif;
+    }
     .popular{
         text-align: center;
-        border: 1px solid gray;
+        border: 1px solid #edede7;
         height: 50px;
         margin-top: 40px;
+        color: var(--tertiary-color);
+        cursor: pointer;
     }
     .lineH{
         line-height: 50px;
+    }
+    #margin-p{
+        margin-bottom: 40px;
     }
     .white{
         background-color: white;
@@ -149,32 +162,35 @@ section{
     .icons{
         display: flex;
         justify-content: space-around;
-        width: 60%;
+        width: 40%;
+        cursor: pointer;
     }
     .padd{
         width: 30px;
         height: 30px;
         text-align: center;
-        background-color: lightgrey;
+        background-color: #edede7;
         border-radius: 5px;
     }
     input{
         border-radius: 5px;
         width: 100%;
-        border-color: lightgray;
+        border-color: #edede7;
         height: 60px;
         margin-bottom: 30px;
+        color: #edede7;
     }
     .col-12{
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50px;
-        background-color: lightgray;
+        background-color: #edede7;
 
         a{
             text-decoration: none;
-            color: black;
+            text-transform: uppercase;
+            color: var(--tertiary-color);
         }
     }
     .container{
@@ -189,6 +205,9 @@ section{
                         width: calc(50% - 20px);
                         padding: 0;
                         text-align: center;
+                        p{
+                            color: var(--secondary-color);
+                        }
                         img{
                             width: 100%;
                         }
@@ -213,6 +232,10 @@ section{
                     p{
                         margin: 0;
                         line-height: 1.5;
+                        color: var(--tertiary-color);
+                    }
+                    span{
+                        color: var(--secondary-color);
                     }
                 }
                 .content{
@@ -224,6 +247,7 @@ section{
                         }
                         svg{
                             padding-right: 30px;
+                            color: var(--secondary-color);
                         }
                         .right{
                                 text-align: right;
@@ -238,7 +262,7 @@ section{
                     }
                     img{
                         width: 100%;
-                        margin-top: 30px;
+                        // margin-top: 30px;
                         border-radius: 5px;
                     }
                     .col-10{

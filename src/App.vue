@@ -23,4 +23,6 @@ export default {
 
 <style lang="scss">
 @import "./assets/style/global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 </style>

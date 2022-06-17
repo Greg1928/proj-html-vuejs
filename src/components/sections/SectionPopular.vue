@@ -2,7 +2,7 @@
   <section>
     <div class="container">
         <h3>Popular Receipes</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quidem? Ut esse quo sapiente</p>
+        <p class="spec">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quidem? Ut esse quo sapienteLorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolorem</p>
         <div class="row">
             <div class="col-6 white">
                 <img src="../../assets/img/Yogurt-Nan-800x527.jpg" alt="">
@@ -61,8 +61,24 @@ export default {
 section{
     margin-top: 500px;
 
-    h3, p{
+    .spec{
+        max-width: 100%;
+        padding: 0 300px;
+    }
+
+    h3{ 
         text-align: center;
+        color: var(--tertiary-color);
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 2.5px;
+        margin-bottom: 30px;
+    }
+    
+    p{
+        text-align: center;
+        color: var(--secondary-color);
+        margin-bottom: 30px;
     }
     img{
         width: 100%;
@@ -82,8 +98,20 @@ section{
                 width: calc(50% - 20px);
                 margin: 0 10px;
             }
+            span{
+                color: var(--secondary-color);
+            }
+            hr{
+                border-style: none;
+                border-top-style: dotted;
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+                border-color: var(--secondary-color);
+            }
             h4{
                 margin-top: 40px;
+                font-family: 'Playfair Display', serif;
             }
             p{
                 line-height: 2;
@@ -96,6 +124,9 @@ section{
                 background-color: var(--primary-color);
                 text-decoration: none;
                 color: white;
+                text-transform: uppercase;
+                border-radius: 3px;
+                font-weight: bold;
             }
         }
 

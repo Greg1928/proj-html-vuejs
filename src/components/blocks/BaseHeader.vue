@@ -4,7 +4,7 @@
             <div class="header-top">
                 <div class="row">
                     <div class="col-6">
-                        <span>Download App</span>
+                        <span>Download App  <small>iOS</small></span>
                         <span>Advertise with us</span>
                     </div>
                     <div class="col-6">
@@ -75,20 +75,29 @@ export default {
 
 <style lang="scss" scoped>
 header{
+    font-family: 'Roboto', sans-serif;
     .container{
+        small{
+            padding: 3px 5px;
+            background-color: var(--primary-color);
+            border-radius: 3px;
+            color: white;
+        }
         .header-top{
             margin-bottom: 20px;
             .row{
                 .col-6:first-child{
                     span{
-                        margin-right: 2rem
+                        margin-right: 2rem;
+                        color: var(--secondary-color);
                     }
                 }
                 .col-6:nth-last-child(1){
                     text-align: right;
 
                         svg{
-                            margin-left: 1rem;
+                            margin-left: 1.5rem;
+                            color: var(--secondary-color);
                         }
                     }
                 }
@@ -103,11 +112,12 @@ header{
                 list-style: none;
                 gap: 6rem;
                 justify-content: center;
-                margin-top: 20px;
+                margin-top: 30px;
 
                 li{
                     a{
                         text-decoration: none;
+                        color: var(--tertiary-color);
                     }
                 }
             }

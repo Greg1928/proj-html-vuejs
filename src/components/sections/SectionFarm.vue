@@ -17,7 +17,7 @@
                 <span>Lorem, ipsum dolor sit amet</span>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe doloribus, dolorum natus, enim alias obcaecati veritatis fugit earum est atque quia ipsa, voluptatum accusantium cupiditate laboriosam aliquam eligendi neque dicta!</p>
-                <a href="#">read more ></a>
+                <a href="#">Read More ></a>
                 <div class="comments">
                     <i class="fa-regular fa-comments"></i>
                     0
@@ -53,19 +53,33 @@ export default {
 section{
     margin-top: 150px;
     height: 1150px;
+
+    h4{
+        font-family: 'Playfair Display', serif;
+    }
     .container{
         .row{
             .col-6{
                 padding: 0;
+
+                h3{
+                    text-transform: uppercase;
+                    color: var(--tertiary-color);
+                    font-size: 20px;
+                    letter-spacing: 2.5px;
+                }
                 a{
                     padding: 10px 20px;
                     background-color: var(--primary-color);
                     color: white;
                     border-radius: 4px;
                     text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
                 }
                 p{
                     margin-top: 30px;
+                    color: var(--secondary-color);
                 }
             }
             .col-6:nth-child(2){
@@ -89,13 +103,16 @@ section{
                 }
                 h4{
                     margin-top: 40px;
+                    color: var(--tertiary-color);
                 }
                 p{
                     padding-right: 20px;
                     line-height: 2;
+                    color: var(--secondary-color);
                 }
-                a{
+                a, span{
                     text-decoration: none;
+                    color: var(--secondary-color);
                 }
                 .comments{
                     text-align: right;
